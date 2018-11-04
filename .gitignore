@@ -1,0 +1,11 @@
+*~
+*.log
+*.swp
+*.swo
+static/
+.rgignore
+.DS_STORE
+__pycache__/
+node_modules
+local_settings.py
+

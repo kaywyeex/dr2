@@ -1,0 +1,35 @@
+{
+  "name": "dr2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "NODE_ENV=production babel-node ./server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "prettier": "^1.14.3",
+    "webpack": "^4.24.0",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
