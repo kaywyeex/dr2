@@ -8,7 +8,13 @@ export default props => (
   <div>
     <ul>
       <li>
+        <a href="/">Home | href link</a>
+      </li>
+      <li>
         <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <a href="/about">About | href link</a>
       </li>
       <li>
         <NavLink to="/about">About</NavLink>

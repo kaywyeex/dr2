@@ -19,14 +19,10 @@ def render_app(url):
 def home(request):
     app = render_app(request.path)
 
-    print(app)
-
     return render(request, 'base.html', {"app": app})
 
 
 def about(request):
     app = render_app(request.path)
-
-    print(app)
 
     return render(request, 'base.html', {"app": app})
